@@ -1,0 +1,395 @@
+<html>
+
+<body>
+    <form method="get" action="/imprints.php" class="form-block form-block-feature pid-search">
+        <div class="pid-form">
+            <div class="input-block">
+                <label class="label-placeholder" for="livesearch-imprint">Imprint</label>
+                <input type="text" id="livesearch-imprint" name="imprint" placeholder="Imprint"
+                    class="livesearch input-text placeholder" value="" autocapitalize="off" autocomplete="off"
+                    autocorrect="off">
+            </div>
+            <div class="input-block pid-example text-center">
+                <img src="/img/pillid/example.png" alt="Example of how to identify and enter imprint numbers">
+            </div>
+            <div class="input-block">
+                <label class="label-placeholder" for="color-select">Select pill color</label>
+                <select id="color-select" class="input-list" name="color" size="1">
+                    <option value="">Select color</option>
+                    <option value="0" disabled="">---------</option>
+                    <option value="12">White</option>
+                    <option value="0" disabled="">---------</option>
+                    <option value="14">Beige</option>
+                    <option value="73">Black</option>
+                    <option value="1">Blue</option>
+                    <option value="2">Brown</option>
+                    <option value="3">Clear</option>
+                    <option value="4">Gold</option>
+                    <option value="5">Gray</option>
+                    <option value="6">Green</option>
+                    <option value="44">Maroon</option>
+                    <option value="7">Orange</option>
+                    <option value="74">Peach</option>
+                    <option value="8">Pink</option>
+                    <option value="9">Purple</option>
+                    <option value="10">Red</option>
+                    <option value="11">Tan</option>
+                    <option value="12">White</option>
+                    <option value="13">Yellow</option>
+                    <option value="0" disabled="">---------</option>
+                    <option value="69">Beige &amp; Red</option>
+                    <option value="55">Black &amp; Green</option>
+                    <option value="70">Black &amp; Teal</option>
+                    <option value="48">Black &amp; Yellow</option>
+                    <option value="52">Blue &amp; Brown</option>
+                    <option value="45">Blue &amp; Gray</option>
+                    <option value="71">Blue &amp; Orange</option>
+                    <option value="53">Blue &amp; Peach</option>
+                    <option value="34">Blue &amp; Pink</option>
+                    <option value="19">Blue &amp; White</option>
+                    <option value="26">Blue &amp; White Specks</option>
+                    <option value="21">Blue &amp; Yellow</option>
+                    <option value="47">Brown &amp; Clear</option>
+                    <option value="54">Brown &amp; Orange</option>
+                    <option value="28">Brown &amp; Peach</option>
+                    <option value="16">Brown &amp; Red</option>
+                    <option value="57">Brown &amp; White</option>
+                    <option value="27">Brown &amp; Yellow</option>
+                    <option value="49">Clear &amp; Green</option>
+                    <option value="46">Dark &amp; Light Green</option>
+                    <option value="51">Gold &amp; White</option>
+                    <option value="61">Gray &amp; Peach</option>
+                    <option value="39">Gray &amp; Pink</option>
+                    <option value="58">Gray &amp; Red</option>
+                    <option value="67">Gray &amp; White</option>
+                    <option value="68">Gray &amp; Yellow</option>
+                    <option value="65">Green &amp; Orange</option>
+                    <option value="63">Green &amp; Peach</option>
+                    <option value="56">Green &amp; Pink</option>
+                    <option value="43">Green &amp; Purple</option>
+                    <option value="62">Green &amp; Turquoise</option>
+                    <option value="30">Green &amp; White</option>
+                    <option value="22">Green &amp; Yellow</option>
+                    <option value="42">Lavender &amp; White</option>
+                    <option value="40">Maroon &amp; Pink</option>
+                    <option value="50">Orange &amp; Turquoise</option>
+                    <option value="64">Orange &amp; White</option>
+                    <option value="23">Orange &amp; Yellow</option>
+                    <option value="60">Peach &amp; Purple</option>
+                    <option value="66">Peach &amp; Red</option>
+                    <option value="18">Peach &amp; White</option>
+                    <option value="15">Pink &amp; Purple</option>
+                    <option value="37">Pink &amp; Red Specks</option>
+                    <option value="29">Pink &amp; Turquoise</option>
+                    <option value="25">Pink &amp; White</option>
+                    <option value="72">Pink &amp; Yellow</option>
+                    <option value="17">Red &amp; Turquoise</option>
+                    <option value="35">Red &amp; White</option>
+                    <option value="20">Red &amp; Yellow</option>
+                    <option value="33">Tan &amp; White</option>
+                    <option value="59">Turquoise &amp; White</option>
+                    <option value="24">Turquoise &amp; Yellow</option>
+                    <option value="32">White &amp; Blue Specks</option>
+                    <option value="41">White &amp; Red Specks</option>
+                    <option value="38">White &amp; Yellow</option>
+                    <option value="31">Yellow &amp; Gray</option>
+                    <option value="36">Yellow &amp; White</option>
+                </select>
+            </div>
+            <div class="input-block" style="position: relative;">
+                <label class="label-placeholder" for="shape-select">Select pill shape</label>
+                <select id="shape-select" name="shape" class="input-list">
+                    <option value="0">Select shape</option>
+                    <option value="1">Barrel</option>
+                    <option value="5">Capsule-shape</option>
+                    <option value="6">Character-shape</option>
+                    <option value="7">Diamond</option>
+                    <option value="9">Egg-shape</option>
+                    <option value="10">Eight-sided</option>
+                    <option value="12">Figure eight-shape</option>
+                    <option value="13">Five-sided</option>
+                    <option value="14">Four-sided</option>
+                    <option value="15">Gear-shape</option>
+                    <option value="16">Heart-shape</option>
+                    <option value="18">Kidney-shape</option>
+                    <option value="20">Oval</option>
+                    <option value="23">Rectangle</option>
+                    <option value="24">Round</option>
+                    <option value="25">Seven-sided</option>
+                    <option value="27">Six-sided</option>
+                    <option value="28">Square</option>
+                    <option value="32">Three-sided</option>
+                    <option value="33">U-shape</option>
+                </select>
+                <div id="shape-content" style="display: block;">
+                    <div class="pill-shapes noVisit">
+                        <ul class="ddc-list-unstyled clearAfter">
+                            <li><a href="#" data-shape-id="24" class="pill-shape ps-circle">Round</a></li>
+                            <li><a href="#" data-shape-id="5" class="pill-shape ps-capsule">Capsule</a></li>
+                            <li><a href="#" data-shape-id="11" class="pill-shape ps-oval">Oval</a></li>
+                            <li><a href="#" data-shape-id="9" class="pill-shape ps-egg">Egg</a></li>
+                            <li><a href="#" data-shape-id="1" class="pill-shape ps-barrel">Barrel</a></li>
+                            <li><a href="#" data-shape-id="23" class="pill-shape ps-rectangle">Rectangle</a></li>
+                            <li><a href="#" data-shape-id="32" class="pill-shape ps-triangle"> 3 Sided</a></li>
+                            <li><a href="#" data-shape-id="14" class="pill-shape ps-square">4 Sided</a></li>
+                            <li><a href="#" data-shape-id="13" class="pill-shape ps-pentagon">5 Sided</a></li>
+                            <li><a href="#" data-shape-id="27" class="pill-shape ps-hexagon">6 Sided</a></li>
+                            <li><a href="#" data-shape-id="25" class="pill-shape ps-heptagon">7 sided</a></li>
+                            <li><a href="#" data-shape-id="10" class="pill-shape ps-octagon"> 8 sided</a></li>
+                            <li><a href="#" data-shape-id="33" class="pill-shape ps-u-shape">U Shaped</a></li>
+                            <li><a href="#" data-shape-id="12" class="pill-shape ps-figure-eight">Figure 8</a></li>
+                            <li><a href="#" data-shape-id="16" class="pill-shape ps-heart">Heart</a></li>
+                            <li><a href="#" data-shape-id="18" class="pill-shape ps-kidney">Kidney</a></li>
+                            <li><a href="#" data-shape-id="15" class="pill-shape ps-gear">Gear</a></li>
+                            <li><a href="#" data-shape-id="6" class="pill-shape ps-character">Character</a></li>
+                        </ul>
+                        <div class="pill-shapes-footer">
+                            <a href="#" data-shape-id="0">Unspecified</a>
+                            <div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <input type="submit" class="ddc-btn btn-block" value="Search" data-submit="Searching...">
+        </div>
+    </form>
+
+    <div class="form-section">
+        <h4>How to identify a pill using the Pill Identifier?</h4>
+        <ol>
+            <li>Enter the imprint code that appears on the pill e.g. L484</li>
+            <li>Select the the pill color (optional)</li>
+            <li>Select the shape (optional)</li>
+            <li>You may also search by drug name or NDC code</li>
+        </ol>
+        <p><strong>Useful tip:</strong> Search for the imprint first, then refine by color and shape if you have too
+            many results.</p>
+    </div>
+
+    <hr class="mgt-4 mgb-4">
+
+    <div class="form-section">
+        <h2 class="form-title">Search by Drug Name</h2>
+        <form method="get" action="/imprints.php" class="form-search form-search-imprint-drug noprint clearAfter">
+            <div class="input-group-attached rf-input-group-attached"> <label for="livesearch-imprint-drug"
+                    class="label-placeholder">Drug name</label>
+                <input type="text" id="livesearch-imprint-drug" name="drugname" data-livesearch="imprint-drug"
+                    data-required="1" class="livesearch placeholder input-text"
+                    placeholder="Enter a drug name, e.g aspirin" value="" autocomplete="off" autocapitalize="off"
+                    autocorrect="off">
+                <input type="submit" class="ddc-btn ddc-btn-search" value="Search">
+
+            </div>
+        </form>
+    </div>
+
+    <div class="form-section">
+        <h2 class="form-title">Search by National Drug Codes (NDC)</h2>
+        <form method="get" action="/imprints.php" class="form-search form-search-imprint-ndc noprint clearAfter">
+            <div class="input-group-attached rf-input-group-attached"> <label for="livesearch-imprint-ndc"
+                    class="label-placeholder">National Drug Code number</label>
+                <input type="text" id="livesearch-imprint-ndc" name="ndc" data-livesearch="imprint-ndc"
+                    data-required="1" class=" placeholder input-text" placeholder="Enter an NDC code, e.g 0777-3105-02"
+                    value="" autocomplete="off">
+                <input type="submit" class="ddc-btn ddc-btn-search" value="Search">
+                <p class="form-hint"><a href="/ndc.html">What is an NDC Number?</a></p>
+
+            </div>
+        </form>
+    </div>
+
+    </div>
+
+
+    <h2>Popular Pill Imprints</h2>
+
+    <div class="boxList clearAfter">
+        <ul class="column-span column-span-4">
+            <li><a href="/imprints/m367-3762.html">M367 </a></li>
+            <li><a href="/imprints/m365-5096.html">M365 </a></li>
+            <li><a href="/imprints/an-627-14580.html">AN 627 </a></li>
+            <li><a href="/imprints/l484-10944.html">L484 </a></li>
+            <li><a href="/imprints/v-36-01-10135.html">V 36 01</a></li>
+            <li><a href="/imprints/2172-24832.html">2172 </a></li>
+            <li><a href="/imprints/2632-v-13546.html">2632 V</a></li>
+            <li><a href="/imprints/s-90-3-11997.html">S 90 3 </a></li>
+            <li><a href="/imprints/m366-5097.html">M366 </a></li>
+            <li><a href="/imprints/watson-853-10141.html">WATSON 853 </a></li>
+            <li><a href="/imprints/v-36-05-14259.html">V 36 05</a></li>
+            <li><a href="/imprints/rp-10-325-22388.html">RP 10 325</a></li>
+            <li><a href="/imprints/m-751-6513.html">M 751</a></li>
+            <li><a href="/imprints/c-230-19827.html">C 230</a></li>
+            <li><a href="/imprints/k-56-15462.html">K 56 </a></li>
+            <li><a href="/imprints/30-m-8232.html">30 M</a></li>
+            <li><a href="/imprints.php?imprint=512&amp;color=&amp;shape=0">512 </a></li>
+            <li><a href="/imprints/ip-109-14545.html">IP 109 </a></li>
+            <li><a href="/imprints/3604-v-14258.html">3604 V</a></li>
+            <li><a href="/imprints/gg-249-629.html">GG 249 </a></li>
+            <li><a href="/imprints/319-16967.html">319 </a></li>
+            <li><a href="/imprints/a333-21735.html">A333 </a></li>
+            <li><a href="/imprints/r180-12553.html">R180 </a></li>
+            <li><a href="/imprints/a349-21733.html">A349 </a></li>
+            <li><a href="/imprints/ip-204-13306.html">IP 204 </a></li>
+            <li><a href="/imprints/ip-190-500-12044.html">IP 190 500</a></li>
+            <li><a href="/imprints/x-ana-x-2-7040.html">X ANA X 2</a></li>
+            <li><a href="/imprints/031-r-7269.html">031 R</a></li>
+        </ul>
+    </div>
+
+    <ins id="display-ad-injection-1"
+        class="display-ad display-ad-injection display-ad-text-image display-ad-rectangle-horizontal adsbygoogle"
+        style="display: block; height: 90px;" data-ad-client="pub-3964816748264478" data-ad-channel="4849241754"
+        data-ad-type="text,image" data-ad-format="rectangle,horizontal" data-color-border="f3f3f3"
+        data-color-bg="f3f3f3" data-color-link="0000ff" data-color-text="000000" data-color-url="008000"
+        data-analytics-domain-name="drugs.com" data-adsbygoogle-status="done"><ins id="aswift_0_expand"
+            style="display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:795px;background-color:transparent;"><ins
+                id="aswift_0_anchor"
+                style="display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:795px;background-color:transparent;"><iframe
+                    width="795" height="90" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0"
+                    allowtransparency="true" scrolling="no" allowfullscreen="true"
+                    onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}"
+                    id="aswift_0" name="aswift_0"
+                    style="left:0;position:absolute;top:0;border:0px;width:795px;height:90px;"></iframe></ins></ins></ins>
+    <h2>Learn more</h2>
+    <div class="vmig">
+        <ul>
+            <li>
+                <p><b>What if my pill has no imprint code?</b> All prescription and over-the-counter (OTC) drugs in the
+                    U.S. are required by the FDA to have an imprint code. If your pill has no imprint code it could be a
+                    vitamin, diet, herbal, or energy pill, or an illicit or foreign drug. It is not possible to
+                    accurately identify a pill online without an imprint code.</p>
+            </li>
+            <li>
+                <p><b>What if my pill has a logo?</b> If your pill has a logo, you can ignore the logo and type in any
+                    other letters or numbers in the imprint code. If you want to refine your results further, you can
+                    add the word Logo in place of the logo.</p>
+            </li>
+            <li>
+                <p><b>Historical pill images</b>. The Drugs.com Pill Identifier database includes historical data for
+                    many products that may be discontinued or no longer commercially available.</p>
+            </li>
+            <li><a href="/article/imprint-codes.html">Imprint code FAQs</a></li>
+            <li><a href="/pill-logo-identification.html">Identifying manufacturer imprints &amp; logos</a></li>
+            <li><a href="https://www.drugs.com/discount-card/">Drugs.com discount card</a></li>
+        </ul>
+    </div>
+
+    <h2>Further information</h2>
+    <p class="ddc-disclaimer">Always consult your healthcare provider to ensure the information displayed on this page
+        applies to your personal circumstances.</p>
+    <p class="ddc-disclaimer-link"><a href="/support/disclaimer-pillid.html">Medical Disclaimer</a></p>
+    </div>
+    <!-- google_ad_section_end -->
+
+
+    </div>
+
+
+    <div id="sidebar" class="clearAfter">
+
+        <div class="sideBox sideBoxM1ad">
+            <div id="div-gpt-ddcad-2" data-google-query-id="COzU7O-w--ECFRHHwAoduCUBEA">
+                <div id="google_ads_iframe_/7146/pillid_2__container__"
+                    style="border: 0pt none; display: inline-block; width: 300px; height: 600px;"><iframe
+                        frameborder="0" src="https://tpc.googlesyndication.com/safeframe/1-0-33/html/container.html"
+                        id="google_ads_iframe_/7146/pillid_2" title="3rd party ad content" name="" scrolling="no"
+                        marginwidth="0" marginheight="0" width="300" height="600" data-is-safeframe="true"
+                        sandbox="allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+                        data-google-container-id="3" style="border: 0px; vertical-align: bottom;"
+                        data-load-complete="true"></iframe></div>
+            </div>
+        </div>
+
+        <div class="sideBox sideBoxPillApp">
+            <a href="https://itunes.apple.com/us/app/pill-identifier-lite-by-drugs/id398305495" target="_blank"
+                onclick="ga('send', { hitType: 'event', eventCategory: 'App Promo', eventAction: 'Sidebar', eventLabel: 'Pill Identifier - iOS' });"><img
+                    src="/img/banners/pill-id-app-320x102.png" alt="" width="320" height="102"></a>
+        </div>
+        <div class="sideBox sideBoxMiddleAd sideBoxFloatRight">
+            <div id="div-gpt-ddcad-1" data-google-query-id="CPTx6u-w--ECFRHHwAoduCUBEA">
+                <div id="google_ads_iframe_/7146/pillid_1__container__" style="border: 0pt none;"><iframe
+                        id="google_ads_iframe_/7146/pillid_1" title="3rd party ad content"
+                        name="google_ads_iframe_/7146/pillid_1" width="160" height="600" scrolling="no" marginwidth="0"
+                        marginheight="0" frameborder="0" srcdoc="" style="border: 0px; vertical-align: bottom;"
+                        data-google-container-id="2" data-load-complete="true"></iframe></div>
+            </div>
+        </div>
+        <div class="sideBox sideBoxRecentlyApproved sideBoxFloatLeft">
+            <div class="sideBoxHead">
+                <div class="sideBoxTitle">Recently Approved</div>
+            </div>
+            <div class="sideBoxContent">
+                <ul class="ddc-list-unstyled">
+                    <li><a class="display-block" href="/duobrii.html">Duobrii</a> <span>Duobrii (halobetasol propionate
+                            and tazarotene) is a corticosteroid and...</span></li>
+                    <li><a class="display-block" href="/history/eticovo.html">Eticovo</a> <span>Eticovo
+                            (etanercept-ykro) is a tumor necrosis factor (TNF) blocker biosimilar...</span></li>
+                    <li><a class="display-block" href="/skyrizi.html">Skyrizi</a> <span>Skyrizi (risankizumab-rzaa) is
+                            an interleukin-23 (IL-23) inhibitor for the...</span></li>
+                    <li><a class="display-block" href="/balversa.html">Balversa</a> <span>Balversa (erdafitinib) is a
+                            once-daily, oral, pan-fibroblast growth factor...</span></li>
+                </ul>
+                <p><a href="/newdrugs.html" class="iconGo">More approvals</a></p>
+            </div>
+        </div>
+        <div class="sideBox">
+            <a href="https://www.drugs.com/discount-card/"
+                onclick="ga('send', 'event', 'Discount Card', 'Promo', 'SideBar');"><img class="media-image"
+                    src="/img/pixel.gif" alt="Drugs.com Discount Card" data-lazy-load=""
+                    data-src="/img/discount/336x120-discount-card.png" width="320" height="120"></a>
+        </div>
+
+        <div class="sideBox sideBoxSubscribe">
+
+            <div class="sideBoxHead">
+                <div class="sideBoxTitle">
+                    Subscribe to our newsletters
+                </div>
+            </div>
+
+            <div class="sideBoxContent">
+                <form action="/email-subscribe.php" method="post">
+                    <div class="form-check">
+                        <label class="form-check-label text-weight-bold" for="subscribeFdaAlerts">
+                            <input class="form-check-input" type="checkbox" id="subscribeFdaAlerts" name="fdaalerts"
+                                value="1"><span>FDA alerts </span>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label text-weight-bold">
+                            <input class="form-check-input" type="checkbox" name="newsletter_option_daily"
+                                value="1"><span>Daily news summary</span>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label text-weight-bold">
+                            <input class="form-check-input" type="checkbox" name="newsletter_option_weekly"
+                                value="1"><span>Weekly news roundup</span>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label text-weight-bold">
+                            <input class="form-check-input" type="checkbox" name="newsletter_option_monthly"
+                                value="1"><span>Monthly newsletter</span>
+                        </label>
+                    </div>
+
+                    <div class="form-check form-check-terms">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" name="terms" value="1" required=""><span
+                                class="form-hint">I accept the Terms of Use and Privacy Policy</span>
+                        </label>
+                    </div>
+
+                    <div class="input-group-attached">
+                        <label class="label-placeholder">Email Address</label>
+                        <input type="email" id="subscribeEmail" name="email" class="placeholder input-text"
+                            placeholder="Email address" autocomplete="email" required="">
+                        <input type="submit" class="ddc-btn" value="Subscribe">
+                    </div>
+
+                </form>
+</body>
+
+</html>
